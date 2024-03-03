@@ -27,7 +27,7 @@ class Menucredito
                 }
                 if (Opciones =="3")
                 {
-                Console.WriteLine("Gracias por usar el program");
+                Console.WriteLine("");//mike aca pondras que regrese al apartado anterior
                 } 
      }
 }
