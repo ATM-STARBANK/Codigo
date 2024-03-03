@@ -13,7 +13,7 @@ class Menudebito
         Console.WriteLine("3.Retiro Efectivo");
         Console.WriteLine("4.Depositar en Efectivo");
         Console.WriteLine("5.Consultar Saldo");
-        Console.WriteLine("6.Salir");
+        Console.WriteLine("6.Regresar");
             Opciones = Console.ReadLine();
             
                 switch (Opciones)
