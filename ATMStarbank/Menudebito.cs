@@ -55,7 +55,7 @@ class Menudebito
                 }
                 if (Opciones =="8")
                 {
-                Console.WriteLine("Gracias por usar el program");
+                Console.WriteLine("");//mike aqui pondras para que regrese al apartado anterior 
                 } 
      }
 }
