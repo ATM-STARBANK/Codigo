@@ -1,23 +1,20 @@
-namespace Banco;
+﻿namespace ATMStarbank;
 
-class Menu
+class Menudebito
 {
     static void Main(string[] args)
     {
-
         string Opciones;
 
-        Console.WriteLine("Bienvenidos al Banco");
-        Console.WriteLine("       StarBank    ");
-        Console.WriteLine("                   ");
+        Console.WriteLine("Se encuentra con Targera de Debito");
+        Console.WriteLine("Elija la operacion que desea hacer");
         Console.WriteLine("1.Disponidad de efectivo");
         Console.WriteLine("2.Transacciones");
         Console.WriteLine("3.Retiro Efectivo");
         Console.WriteLine("4.Depositar en Efectivo");
         Console.WriteLine("5.Consultar Saldo");
         Console.WriteLine("6.Salir");
-
-        Opciones = Console.ReadLine();
+            Opciones = Console.ReadLine();
             
                 switch (Opciones)
                 {
@@ -50,9 +47,6 @@ class Menu
                 {
                 Console.WriteLine("Gracias por usar el program");
                 break;
-                }
-                    
-             
-        }
-
-    }
+                } 
+     }
+}
