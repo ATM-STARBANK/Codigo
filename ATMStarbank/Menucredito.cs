@@ -1,4 +1,5 @@
-namesapace 
+namespace ATMStarbank;
+
 class Menucredito
 {
     static void Main(string[] args)
