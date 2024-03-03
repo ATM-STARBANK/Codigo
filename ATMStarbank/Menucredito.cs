@@ -6,10 +6,10 @@ class Menucredito
     {
         string Opciones;
 
-        Console.WriteLine("Trasacciones con Targera de Credito");
-        Console.WriteLine("Elija la operacion que desea hacer");
-        Console.WriteLine("1.Pago con Targeta");
-        Console.WriteLine("2.Pago credito");
+        Console.WriteLine("Trasacciones con Tarjeta de Credito");
+        Console.WriteLine("Escoja la operación que desea realizar");
+        Console.WriteLine("1.Pago con Tarjeta");
+        Console.WriteLine("2.Pago de credito");
         Console.WriteLine("3.Regresar");
             Opciones = Console.ReadLine();
             
