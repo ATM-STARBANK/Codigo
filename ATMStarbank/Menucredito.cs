@@ -10,7 +10,7 @@ class Menucredito
         Console.WriteLine("Escoja la operación que desea realizar");
         Console.WriteLine("1.Pago con Tarjeta");
         Console.WriteLine("2.Pago de credito");
-        Console.WriteLine("3.Regresar");
+        Console.WriteLine("3.Regresar"); //Esta genial, pero no necesitas un console.write, ponle que se ejecute el metodo del menu y yaxd
             Opciones = Console.ReadLine();
             
                 switch (Opciones)
