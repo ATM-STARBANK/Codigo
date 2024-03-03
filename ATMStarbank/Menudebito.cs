@@ -13,7 +13,8 @@ class Menudebito
         Console.WriteLine("3.Retiro Efectivo");
         Console.WriteLine("4.Depositar en Efectivo");
         Console.WriteLine("5.Consultar Saldo");
-        Console.WriteLine("6.Regresar");
+        Console,WriteLine("6.Registrar un nuevo ping");
+        Console.WriteLine("7.Regresar");
             Opciones = Console.ReadLine();
             
                 switch (Opciones)
@@ -42,8 +43,12 @@ class Menudebito
 
                         break;
 
+                    case "6": 
+
+                        break;
+
                 }
-                if (Opciones =="6")
+                if (Opciones =="7")
                 {
                 Console.WriteLine("Gracias por usar el program");
                 break;
