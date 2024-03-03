@@ -6,7 +6,7 @@ class Menudebito
     {
         string Opciones;
 
-        Console.WriteLine("Se encuentra con Targera de Debito");
+        Console.WriteLine("Trasacciones con Targera de Debito");
         Console.WriteLine("Elija la operacion que desea hacer");
         Console.WriteLine("1.Disponidad de efectivo");
         Console.WriteLine("2.Transacciones");
