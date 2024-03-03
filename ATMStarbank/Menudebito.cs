@@ -51,7 +51,6 @@ class Menudebito
                 if (Opciones =="7")
                 {
                 Console.WriteLine("Gracias por usar el program");
-                break;
                 } 
      }
 }
